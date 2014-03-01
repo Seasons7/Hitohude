@@ -62,7 +62,7 @@ var boards_info = {
 PANEL_TYPE = {
     EMPTY: 0,
     WHITE: 1,
-    BLACK: 2,
+    BLACK: 2
 };
 
 PANEL_TAG_BASE = 0x10;
@@ -76,7 +76,7 @@ boards_info.data = [
     0, 2, 2, 1, 2, 0,
     0, 1, 1, 2, 2, 0,
     0, 2, 1, 2, 2, 0,
-    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0
 ];
 
 boards_info.result_data = [
@@ -85,7 +85,7 @@ boards_info.result_data = [
     0, 2, 2, 1, 2, 0,
     0, 1, 1, 2, 2, 0,
     0, 2, 1, 2, 2, 0,
-    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0
 ];
 
 boards_info.marker = [
@@ -94,7 +94,7 @@ boards_info.marker = [
     0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0
 ];
 boards_info.flip_list = [];
 boards_info.current_marker = -1;
@@ -119,7 +119,7 @@ var ModalLayer = cc.Layer.extend({
     onTouchBegan: function( /*touch, event*/ ) {
         cc.log("touch");
         return true; /* 下のオブジェクトにもタッチ処理を流すには、false */
-    },
+    }
 
 });
 
